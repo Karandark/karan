@@ -1,0 +1,169 @@
+*{margin: 0; box-sizing: border-box; scroll-behavior: smooth;}
+@media only screen and (min-width: 481px)
+ {
+ 
+  #moblie-nav{ width: 100%; height: 65px; border: 0px black solid; display: flex;align-items:center;  justify-content: space-around;}
+  #moblie-nav p{font-size: 18px ;  }
+  #nav-icon{ color: #d5b666; height: 35px; }
+  #moblie-menu{background-color: white; height: 1040px; border: 0px black solid; margin: auto; text-align: center;z-index: 1; 
+     display: none;}
+  #moblie-menu p{width: 90%; font-size:18px; border-bottom:1px rgb(153, 153, 153) solid;  margin: auto; text-align: center;  
+    text-transform: uppercase; padding-top:40px; padding-bottom: 40px; }
+  #moblie-menu a{text-decoration:none;color: rgb(94, 94, 94); }  
+ #navbar{display: none;}
+#menu-icon{font-size: 25px;color: rgb(94, 94, 94); }
+
+
+    .card{width: 90%;  height: 650px;  border :0px black solid; background-color: #f1f5f4; margin: auto; margin-bottom: 40px; margin-top: 20px; }
+    .card-img{width: 100%; height: 70%;}
+    .card-text{width: 100%; height: 30%; display: block; margin: auto; text-align: center;}
+    .card-heading{font-family:calibri ; font-size:14px ;  color:#235740; letter-spacing: 3px; padding-top:10px; cursor: pointer; text-transform: uppercase; }
+    .card-sh{font-family:'Cardo', serif  ; font-size:27px ;  color:#4f4f4f; font-style: italic; padding: 20px 0px; cursor: pointer;}
+    .btn{font-family:'Cardo', serif  ; font-size:14px ;  color:white; background-color: #07163a; padding: 20px 50px; border: none; text-transform: uppercase;}
+    .btn:hover {color: #524a34; background-color: #d6d5d5; border: none; }
+
+
+
+
+
+    #fotter{width: 100%; height: 560px; border: 0px blue solid; overflow: hidden;}
+    #fotter-sec1{width:80%; margin: auto; height: 30%;border: 0px black solid; }
+    #fotter-text{font-size: 16px; color:#192441; padding:25px 0px ; font-family:  'Cardo', serif; line-height: 21px; text-align: center;   }
+   
+    #icon{border-radius: 50%; border: 1px #b49e67 solid; padding: 15px; color: #b49e67;}
+    #icon:hover{border: 1px #d5b666 solid; color: #d5b666;}
+   
+    #fotter-icon p{display: none;}
+    #fotter-sec2{display: none;}
+
+    #fotter-mobile{border: 0px black solid;width: 100%; background-color: #f3f3eb ; height:70%; margin-top: 15px; }
+    #mf{width: 90%;  border: 0px black solid;  height:50%; margin: auto; display: flex; justify-content: space-around;  margin-bottom: 15px;
+     }
+    #fotter-link1{ border: 0px black solid; height: 100%; width: 50%; display: flex; flex-direction: column; justify-content: space-around; }
+    #fotter-link1 a{text-transform: uppercase; font-size: 16px;  text-align: center; line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+    #fotter-link2{ border: 0px black solid; height: 100%; width: 50%;display: flex;flex-direction: column; justify-content: space-around; }
+    #fotter-link2 a{text-transform: uppercase; font-size: 16px;  text-align: center; line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+    
+    #fotter-link3{ border: 0px black solid; width: 100%; height: 40%;  border: 0px red solid; display: flex;flex-direction: column; justify-content: space-around;}
+    #fotter-link3 p{text-transform: uppercase; font-size: 18px; text-align: center; padding-bottom: 4px; line-height: 18px; font-family: calibri; color:#000000;}
+    #contact{background-color: #535957; border: none; margin:auto;width: 40%; color: white; padding: 14px; font-size: 15px; font-family: calibri;}
+    #contact:hover{background-color: #bbbcbb;}
+    
+    #con-6{width: 70%; margin: auto; height: 150px; margin: auto; border: 0px black solid; text-align: center;}
+    #con-6 p{ font-size: 16px; color:#030b1e; font-family:  'Cardo', serif; padding: 20px 0px; border: 0px black solid; cursor: pointer;}
+    #top-btn{cursor: pointer; font-size: 15px; padding-left: 15px;} 
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+  #moblie-nav{display: none;}
+  #moblie-menu{display: none;}
+
+  
+    #navbar{width: 100%; height: 60px; display: flex;align-items:center;justify-content: space-around;  border :0px black solid;}
+    #navbar p{font-size: 18px; border :0px red solid; font-weight: 400;}
+    
+    #navbar-menu a{text-decoration:none; font-size:8px; padding-right:5vh;font-weight: 400; text-transform: uppercase; color: black; }
+    #navbar-menu a:hover {color:rgb(228, 196, 154);}
+    
+    .card{width: 90%;  height: 250px; display: flex; border :0px black solid; background-color: #f1f5f4; margin: auto; margin-bottom: 40px;  }
+    .card-img{width: 50%; height: 100%;}
+    .card-text{width: 50%; height: 100%; padding-top: 30px; display: block; margin: auto; text-align: center;}
+    .card-heading{font-family:calibri ; font-size:12px ;  color:#235740; letter-spacing: 3px; cursor: pointer; text-transform: uppercase; }
+    .card-sh{font-family:'Cardo', serif  ; font-size:20px ;  color:#4f4f4f; font-style: italic; padding: 50px 0px; cursor: pointer;}
+    .btn{font-family:'Cardo', serif  ; font-size:11px ;  color:white; background-color: #030b1e; padding: 10px 20px; border: none; text-transform: uppercase;}
+    .btn:hover {color: #524a34; background-color: #d6d5d5; border: none; }
+
+
+
+
+    #fotter{width: 100%; height: 250px; border: 0px black solid; display: flex; }
+    #fotter-sec1{width: 35%; height: 100%;border: 0px black solid; position: relative; }
+    #fotter-text{font-size: 9px; color:#192441;text-align:left;  font-family:  'Cardo', serif; line-height: 15px; position: absolute; top: 30%; left: 14%;  }
+ 
+    #fotter-icon p{display: block;} 
+    #fotter-icon{font-size: 8px; color:#192441; font-family:  'Cardo', serif; margin-top: 6%;border: 0px black solid; width: 54%;display: flex; justify-content: space-between; align-items: center; position: absolute; top: 60%; left: 14%; }
+    #icon{border-radius: 50%; border: 1px #b49e67 solid; padding: 8px; font-size: 12px;  color: #b49e67;}
+    #icon:hover{border: 1px #d5b666 solid; color: #d5b666;}
+    #fotter-mobile{display: none;}
+    
+
+    
+    #fotter-sec2{width: 65%; height: 100%; display: flex; justify-content: space-around;  background-color: #f3f3eb ; padding-top: 4%;}
+    #fotter-link1{ border: 0px black solid; height: 100%; width: 10%; display: flex; flex-direction: column; justify-content: space-around; }
+    #fotter-link1 a{text-transform: uppercase; font-size: 13px;  line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+    #fotter-link2{ border: 0px black solid; height: 100%; width: 10%;display: flex;flex-direction: column; justify-content: space-around; }
+    #fotter-link2 a{text-transform: uppercase; font-size: 13px;   line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+    #fotter-link3{ border: 0px black solid; width: 25%; height: 80%; display: flex;flex-direction: column; justify-content: space-around;}
+    #fotter-link3 p{text-transform: uppercase; font-size: 9px; text-align: left;  line-height: 18px; font-family: calibri; color:#000000;}
+    #contact{background-color: #535957; border: none; width: 90%; color: white; padding: 14px; font-size: 11px; font-family: calibri;}
+    #contact:hover{background-color: #bbbcbb;}
+    
+    
+    #con-6{width: 85%; height: 50px; display: flex; align-items: center; justify-content: space-between; margin: auto; border: 0px black solid;}
+    #con-6 p{ font-size: 12px; color:#030b1e; font-family:  'Cardo', serif; border: 0px black solid; cursor: pointer;}
+    #top-btn{cursor: pointer; font-size: 15px; padding-left: 15px;} 
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1366px){
+#moblie-nav{display: none;}
+#moblie-menu{display: none;}
+
+#navbar{width: 100%; height: 90px; display: flex;align-items:center;justify-content: space-around; margin: auto; border :0px black solid;}
+#navbar p{font-size: 36px; }
+#navbar-menu a{text-decoration:none; font-size:15px; padding-right:6vh; text-transform: uppercase; color: black; }
+#navbar-menu a:hover {color:rgb(228, 196, 154);}
+
+.card{width: 85%;  height: 330px; display: flex; border :0px black solid; background-color: #f1f5f4; margin: auto; margin-bottom: 40px;  margin-top: 20px; }
+.card-img{width: 50%; height: 100%;}
+.card-text{width: 50%; height: 100%; padding-top: 30px; display: block; margin: auto; text-align: center; border: 0px black solid;}
+.card-heading{font-family:calibri ; font-size:15px ;  color:#235740; letter-spacing: 3px; cursor: pointer; text-transform: uppercase; }
+.card-sh{font-family:'Cardo', serif  ; font-size:28px ;  color:#4f4f4f; font-style: italic; padding: 60px 0px; cursor: pointer;}
+.btn{font-family:'Cardo', serif  ; font-size:11px ;  color:white; background-color: #030b1e; padding: 15px 30px; border: none; text-transform: uppercase;}
+.btn:hover {color: #524a34; background-color: #d6d5d5; border: none; }
+
+    
+
+
+#fotter-mobile{display: none;}
+
+#fotter{width: 100%; height: 40vh; border: 0px black solid; display: flex; }
+#fotter-sec1{width: 35%; height: 100%;border: 0px black solid; position: relative; }
+#fotter-text{font-size: 17px; color:#192441; font-family:  'Cardo', serif; line-height: 21px; position: absolute; top: 30%; left: 14%;  }
+#fotter-icon{font-size: 15px; color:#192441; font-family:  'Cardo', serif; margin-top: 4%;border: 0px black solid; width: 54%;display: flex; justify-content: space-between; align-items: center; position: absolute; top: 60%; left: 14%; }
+#icon{border-radius: 50%; border: 1px #b49e67 solid; padding: 8px; font-size: 15px;  color: #b49e67;}
+#icon:hover{border: 1px #d5b666 solid; color: #d5b666;}
+#mobile-fotter{display: none;}
+
+
+#fotter-sec2{width: 65%; height: 100%; display: flex; justify-content: space-around;  background-color: #f3f3eb ; padding-top: 4%;}
+#fotter-link1{ border: 0px black solid; height: 100%; width: 10%; display: flex; flex-direction: column; justify-content: space-around; }
+#fotter-link1 a{text-transform: uppercase; font-size: 16px;  text-align: center; line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+#fotter-link2{ border: 0px black solid; height: 100%; width: 10%;display: flex;flex-direction: column; justify-content: space-around; }
+#fotter-link2 a{text-transform: uppercase; font-size: 16px;  text-align: center; line-height: 16px; font-family: calibri; color:#91887b; text-decoration: none;}
+#fotter-link3{ border: 0px black solid; width: 25%; height: 80%; display: flex;flex-direction: column; justify-content: space-around;}
+#fotter-link3 a{text-transform: uppercase; font-size: 12px;  text-align: center; line-height: 18px; font-family: calibri; color:#000000;}
+#contact{background-color: #535957; border: none; width: 90%; color: white; padding: 14px; font-size: 14px; font-family: calibri;}
+#contact:hover{background-color: #bbbcbb;}
+
+#con-7{width: 85%; height: 10vh; display: flex; align-items: center; justify-content: space-between; margin: 0%; border: 0px black solid;}
+#con-7 p{ font-size: 12px; color:#030b1e; font-family:  'Cardo', serif; border: 0px black solid; cursor: pointer;}
+#top-btn{cursor: pointer; font-size: 15px; padding-left: 15px;}
+ }
